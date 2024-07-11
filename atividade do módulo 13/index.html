@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV 13</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        
+    </style>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>COSMOS</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link active">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#corpo" class="nav-link">Nebulosas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Formulário</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carroca">
+                            <div class="caraousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active border">
+                                    <img src="./img/lagoon-nebula-11143_1280.jpg" alt="">
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item border">
+                                    <img src="./img/space-7709489_1280.jpg" alt="">
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item border">
+                                    <img src="./img/orion-nebula-11107_640.jpg" alt="">
+                                </div>
+                                <button type="button" data-bs-target="#carroca" data-bs-slide="next" class="carousel-control-next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <button type="button" data-bs-target="#carroca" data-bs-slide="prev" class="carousel-control-prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                            <h2>Sobre a nossa página</h2>
+                            <hr>
+                            <p>
+                                Nossa página é um cantinho no universo onde podemos apreciar os corpos celestes que enfeitam o vácuo espacial.
+                                Veja imagens e informações dessas luzes extraordinárias, sinta-se livre para nos dar sugestões sobre quais serão
+                                os próximos acrescentados aqui, boa viagem!
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="corpo">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="primeira-secao-container"  class="margem-baixa">
+                            <h2>Nebulosas</h2>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#nebulosa-explicacao">?</button>
+                        </div>
+                    </div>
+                    <div class="modal" id="nebulosa-explicacao" data-bs-backdrop="static">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>O que são nebulosas?</h5>
+                                    <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p id="p-mdl">
+                                        <strong>Nebulosas</strong> são grandes nuvens encontradas no espaço interestelar formadas, majoritariamente, de <strong>poeira cósmica</strong> e gases, como <strong>hélio e hidrogênio</strong>. Algumas <strong>nebulosas</strong> surgem a partir da explosão de <strong>estrelas massivas</strong> e que se encontram no ciclo final de suas vidas. Essa explosão, conhecida como <strong>supernova</strong>, lança a matéria da estrela para todas as direções, dando origem a uma ou mais <strong>nebulosas</strong>, que podem apresentar diferentes formatos e extensões, podendo medir desde o tamanho do <strong>Sol</strong> até algumas centenas de <strong>anos-luz</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 margem-baixa">
+                        <a href="https://cdn.hipercultura.com/imagens/horsehead-nebula-11081-960-720-cke.jpg" target="_blank" >
+                            <article class="card">
+                                <img src="./img/horsehead-nebula-11081-960-720-cke.jpg" alt="">
+                                <div class="card-body">
+                                    <div class="card-title h4">
+                                        Nebulosa cabeça de cavalo</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 margem-baixa">
+                        <a href="https://cdn.hipercultura.com/imagens/nasa12345.jpg" target="_blank">
+                            <article class="card">
+                                <img src="./img/COLUNAS-DA-CRIACAO.jpg" alt="">
+                                <div class="card-body">
+                                    <div class="card-title h4">
+                                        Pilares da criação
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 margem-baixa">
+                        <a href="https://cdn.hipercultura.com/imagens/maxresdefault-cke.jpg" target="_blank">
+                            <article class="card">
+                                <img src="./img/HÉLIX.jpg" alt="">
+                                <div class="card-body">
+                                    <div class="card-title h4">Nebulosa de Hélix</div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="form-box">
+                            <h2>Entre em contato:</h2>
+                            <form>
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input id="nome" type="text" class="form-control" required>
+                                <label for="email" class="form-label">Email:</label>
+                                <input id="email" type="email" class="form-control" required>
+                                <label for="telefone" class="form-label">Telefone:</label>
+                                <input id="telefone" type="tel" class="form-control" required>
+                                <label for="mensagem" class="form-label">Mensagem:</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" required></textarea>
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            &copy; Todos os direitos reservados
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
